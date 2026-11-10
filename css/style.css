@@ -220,6 +220,8 @@ details p{color:var(--muted);padding-top:14px;max-width:720px}
 }
 @media (max-width:600px){
   .hero{padding-bottom:28px}
+  .hero__shade{background:linear-gradient(180deg,rgba(11,11,10,.55) 0%,rgba(11,11,10,.62) 35%,rgba(11,11,10,.82) 70%,rgba(11,11,10,.96) 100%)}
+  .hero .eyebrow{font-size:10px;letter-spacing:.22em}
   .hero__lead{font-size:15px}
   .hero__stats{margin-top:36px}
   .hero__stats b{font-size:24px}
