@@ -39,7 +39,7 @@
   $$("#navLinks a").forEach(a => a.addEventListener("click", () => nav.classList.remove("is-open")));
 
   /* ---------- works ---------- */
-  const catName = { interior: "Інтер'єр", exterior: "Екстер'єр", bath: "Ванна", kitchen: "Кухня" };
+  const catName = { living: "Вітальня", bedroom: "Спальня", bath: "Ванна", kitchen: "Кухня", plan: "Планування" };
   const grid = $("#grid");
   const works = S.works || [];
   grid.innerHTML = works.map((w, i) => `
