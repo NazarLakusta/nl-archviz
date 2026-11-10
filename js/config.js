@@ -26,7 +26,7 @@ window.SITE = {
     { src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80", title: "Приватний будинок", cat: "exterior", size: "wide" },
     { src: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&q=80", title: "Вітальня, Київ", cat: "interior" },
     { src: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1200&q=80", title: "Ванна кімната", cat: "bath", size: "tall" },
-    { src: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&q=80", title: "Кухня-вітальня", cat: "kitchen" },
+    { src: "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=1200&q=80", title: "Кухня-вітальня", cat: "kitchen" },
     { src: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&q=80", title: "Спальня", cat: "interior" },
     { src: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600&q=80", title: "Кухня в стилі мінімалізм", cat: "kitchen", size: "wide" },
     { src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80", title: "Квартира в ЖК", cat: "interior" },
