@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NL · ArchViz — 3D-візуалізація інтер'єрів і креслення</title>
+<meta name="description" content="Фотореалістична 3D-візуалізація інтер'єрів, креслення в ArchiCAD і 360° тури. Партнер для ремонтних бригад і дизайнерів. Від 5 $/м².">
+<meta property="og:title" content="NL · ArchViz — покажіть ремонт до його початку">
+<meta property="og:description" content="3D-візуалізація і креслення для ремонтних бригад та дизайнерів. Від 5 $/м².">
+<meta name="theme-color" content="#0b0b0a">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' fill='%230b0b0a'/><text x='50%' y='58%' text-anchor='middle' font-family='Georgia' font-size='28' fill='%23c9a86a'>NL</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <a href="#top" class="logo">NL<span>·</span>ArchViz</a>
+  <nav class="nav__links" id="navLinks">
+    <a href="#services">Послуги</a>
+    <a href="#works">Роботи</a>
+    <a href="#partners">Бригадам</a>
+    <a href="#process">Процес</a>
+    <a href="#pricing">Ціни</a>
+    <a href="#contact" class="btn btn--ghost btn--sm">Обговорити проєкт</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Меню"><span></span><span></span></button>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="compare" id="compare">
+    <div class="compare__img compare__after" id="heroAfter"></div>
+    <div class="compare__img compare__before" id="heroBefore"></div>
+    <div class="compare__line" id="compareLine"><span class="compare__knob">‹ ›</span></div>
+    <span class="compare__tag compare__tag--l">Модель</span>
+    <span class="compare__tag compare__tag--r">Рендер</span>
+  </div>
+  <div class="hero__shade"></div>
+
+  <div class="hero__content">
+    <p class="eyebrow reveal">3D-візуалізація · Креслення · 360° тури</p>
+    <h1 class="hero__title reveal">Покажіть клієнту ремонт <em>ще до&nbsp;його початку</em></h1>
+    <p class="hero__lead reveal">Фотореалістичні рендери та креслення для ремонтних бригад і дизайнерів. Клієнт бачить результат, швидше погоджує кошторис і не змінює рішення посеред робіт.</p>
+    <div class="hero__cta reveal">
+      <a href="#partners" class="btn btn--gold">Розрахувати ваш заробіток</a>
+      <a href="#works" class="btn btn--ghost">Дивитись роботи</a>
+    </div>
+  </div>
+
+  <div class="hero__stats reveal">
+    <div><b>5–6 $</b><span>за м² візуалізації</span></div>
+    <div><b>+2 $</b><span>за м² креслень</span></div>
+    <div><b>3–5 днів</b><span>на квартиру</span></div>
+  </div>
+  <p class="hero__hint">Потягніть повзунок ↔</p>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Квартири</span><i>✦</i><span>Будинки</span><i>✦</i><span>Ванні кімнати</span><i>✦</i><span>Кухні</span><i>✦</i><span>Комерція</span><i>✦</i><span>Екстер'єри</span><i>✦</i><span>360° тури</span><i>✦</i>
+    <span>Квартири</span><i>✦</i><span>Будинки</span><i>✦</i><span>Ванні кімнати</span><i>✦</i><span>Кухні</span><i>✦</i><span>Комерція</span><i>✦</i><span>Екстер'єри</span><i>✦</i><span>360° тури</span><i>✦</i>
+  </div>
+</div>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services">
+  <div class="section__head">
+    <p class="eyebrow reveal">01 — Послуги</p>
+    <h2 class="reveal">Все, що потрібно, щоб <em>продати ремонт</em></h2>
+  </div>
+  <div class="cards">
+    <article class="card reveal">
+      <span class="card__num">I</span>
+      <h3>3D-візуалізація</h3>
+      <p>Фотореалістичні рендери в 3ds Max і Corona: реальні матеріали, світло, меблі та декор. Клієнт бачить свою квартиру, а не «картинку з інтернету».</p>
+      <ul><li>3–4 ракурси на приміщення</li><li>Денне та вечірнє світло</li><li>2 кола правок</li></ul>
+      <p class="card__price">5–6 $<small>/м²</small></p>
+    </article>
+    <article class="card card--accent reveal">
+      <span class="card__num">II</span>
+      <h3>Креслення в ArchiCAD</h3>
+      <p>Технічний комплект для бригади за вашими замірами та під вашим контролем: усе, щоб майстри працювали без питань і помилок.</p>
+      <ul><li>Обмірний план і план демонтажу/монтажу</li><li>План меблів і підлоги</li><li>Електрика та сантехніка</li></ul>
+      <p class="card__price">+2 $<small>/м²</small></p>
+    </article>
+    <article class="card reveal">
+      <span class="card__num">III</span>
+      <h3>360° віртуальний тур</h3>
+      <p>Клієнт «заходить» у майбутній інтер'єр з телефона й оглядається довкола. Найсильніший аргумент на зустрічі.</p>
+      <ul><li>Панорами кожного приміщення</li><li>Посилання, яке працює в браузері</li><li>Для презентації та реклами</li></ul>
+      <p class="card__price">за запитом</p>
+    </article>
+  </div>
+</section>
+
+<!-- ============ WORKS ============ -->
+<section class="section section--works" id="works">
+  <div class="section__head section__head--row">
+    <div>
+      <p class="eyebrow reveal">02 — Роботи</p>
+      <h2 class="reveal">Вибрані <em>проєкти</em></h2>
+    </div>
+    <div class="filters reveal" id="filters">
+      <button class="is-active" data-f="all">Усі</button>
+      <button data-f="interior">Інтер'єри</button>
+      <button data-f="kitchen">Кухні</button>
+      <button data-f="bath">Ванні</button>
+      <button data-f="exterior">Екстер'єри</button>
+    </div>
+  </div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<!-- ============ PARTNERS / CALCULATOR ============ -->
+<section class="section partners" id="partners">
+  <div class="partners__inner">
+    <div class="partners__text">
+      <p class="eyebrow reveal">03 — Для ремонтних бригад</p>
+      <h2 class="reveal">Нова послуга для ваших клієнтів <em>без&nbsp;найму&nbsp;в&nbsp;штат</em></h2>
+      <p class="lead reveal">Я працюю як ваш партнер: ви передаєте заміри й побажання клієнта, я роблю візуалізацію та креслення за фіксованою ціною. Ціну для клієнта встановлюєте ви, і вся різниця залишається вам.</p>
+      <ul class="benefits">
+        <li class="reveal"><b>Легше закрити угоду.</b> Клієнт бачить результат і довіряє вам.</li>
+        <li class="reveal"><b>Менше переробок.</b> Плитка, кольори й світло погоджені до старту.</li>
+        <li class="reveal"><b>Ви сильніші за конкурентів,</b> які показують лише кошторис.</li>
+        <li class="reveal"><b>Рендери для вашої реклами</b> в Instagram і на сайті.</li>
+        <li class="reveal"><b>Жодних зарплат і простоїв.</b> Оплата лише за об'єкт.</li>
+      </ul>
+    </div>
+
+    <div class="calc reveal" id="calc">
+      <p class="calc__title">Калькулятор заробітку</p>
+
+      <label class="calc__row">
+        <span>Площа об'єкта</span>
+        <output id="areaOut">60 м²</output>
+      </label>
+      <input type="range" id="area" min="15" max="300" step="5" value="60">
+
+      <label class="calc__row">
+        <span>Ваша ціна для клієнта</span>
+        <output id="clientOut">14 $/м²</output>
+      </label>
+      <input type="range" id="client" min="6" max="30" step="1" value="14">
+
+      <div class="calc__toggles">
+        <label class="tog"><input type="checkbox" id="optViz" checked><span>Візуалізація</span></label>
+        <label class="tog"><input type="checkbox" id="optDraw" checked><span>Креслення</span></label>
+      </div>
+
+      <div class="calc__res">
+        <div><span>Моя ціна</span><b id="resMine">480 $</b></div>
+        <div><span>Ви отримуєте від клієнта</span><b id="resClient">840 $</b></div>
+      </div>
+      <div class="calc__profit">
+        <span>Ваш заробіток з об'єкта</span>
+        <b id="resProfit">+360 $</b>
+        <small id="resYear">Якщо 4 об'єкти на місяць, це +1 440 $ щомісяця</small>
+      </div>
+      <a href="#contact" class="btn btn--gold btn--block">Стати партнером</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="section" id="process">
+  <div class="section__head">
+    <p class="eyebrow reveal">04 — Як працюємо</p>
+    <h2 class="reveal">Від замірів до рендерів <em>за кілька днів</em></h2>
+  </div>
+  <ol class="steps">
+    <li class="reveal"><span>01</span><h4>Заміри та ТЗ</h4><p>Ви надсилаєте заміри, фото приміщення та побажання клієнта.</p></li>
+    <li class="reveal"><span>02</span><h4>Креслення</h4><p>Готую план у ArchiCAD. Ви перевіряєте та погоджуєте.</p></li>
+    <li class="reveal"><span>03</span><h4>3D-модель</h4><p>Будую простір, підбираю матеріали, меблі й світло.</p></li>
+    <li class="reveal"><span>04</span><h4>Рендери</h4><p>Надсилаю фотореалістичні візуалізації. Два кола правок включено.</p></li>
+    <li class="reveal"><span>05</span><h4>Передача</h4><p>Фінальні файли у високій якості для клієнта й вашої реклами.</p></li>
+  </ol>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="section" id="pricing">
+  <div class="section__head">
+    <p class="eyebrow reveal">05 — Ціни</p>
+    <h2 class="reveal">Прозоро і <em>фіксовано</em></h2>
+  </div>
+  <div class="prices">
+    <div class="price reveal">
+      <p class="price__name">Візуалізація</p>
+      <p class="price__val">5–6 $<small>/м²</small></p>
+      <p class="price__desc">Рендери всіх приміщень, 3–4 ракурси, 2 кола правок</p>
+    </div>
+    <div class="price price--main reveal">
+      <span class="price__badge">Найчастіше обирають</span>
+      <p class="price__name">Візуалізація + креслення</p>
+      <p class="price__val">7–8 $<small>/м²</small></p>
+      <p class="price__desc">Повний пакет: рендери та технічний комплект креслень для бригади</p>
+    </div>
+    <div class="price reveal">
+      <p class="price__name">Креслення</p>
+      <p class="price__val">2 $<small>/м²</small></p>
+      <p class="price__desc">Обмірний план, меблі, підлога, електрика, сантехніка</p>
+    </div>
+  </div>
+  <p class="note reveal">Приклад: квартира 60 м² з візуалізацією та кресленнями ≈ 420–480 $. Термін 3–5 робочих днів.</p>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section section--narrow" id="faq">
+  <div class="section__head">
+    <p class="eyebrow reveal">06 — Питання</p>
+    <h2 class="reveal">Часті <em>питання</em></h2>
+  </div>
+  <details class="reveal"><summary>Що потрібно від вас для старту?</summary><p>Заміри приміщення (можна від руки), фото об'єкта та побажання клієнта: стиль, референси, матеріали. Решту уточню сам.</p></details>
+  <details class="reveal"><summary>Скільки правок входить у ціну?</summary><p>Два кола правок по кожному приміщенню. Невеликі зміни кольору чи матеріалу роблю швидко.</p></details>
+  <details class="reveal"><summary>Як відбувається оплата?</summary><p>50% передоплата перед стартом, 50% після погодження рендерів і перед передачею фінальних файлів.</p></details>
+  <details class="reveal"><summary>Ви працюєте з іншими містами?</summary><p>Так, працюю дистанційно по всій Україні та за кордоном. Все обговорюємо в Telegram чи Instagram.</p></details>
+  <details class="reveal"><summary>Чи можна продавати вашу роботу під своїм брендом?</summary><p>Так. Ви презентуєте візуалізацію клієнту як свою послугу й самі встановлюєте ціну.</p></details>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="cta" id="contact">
+  <p class="eyebrow reveal">Почнімо</p>
+  <h2 class="cta__title reveal">Є об'єкт? <em>Покажемо його клієнту вже цього тижня.</em></h2>
+  <div class="cta__btns reveal">
+    <a class="btn btn--gold" id="ctaTelegram" href="#" target="_blank" rel="noopener">Написати в Telegram</a>
+    <a class="btn btn--ghost" id="ctaInsta" href="#" target="_blank" rel="noopener">Instagram</a>
+  </div>
+  <p class="cta__contacts reveal" id="ctaContacts"></p>
+</section>
+
+<footer class="foot">
+  <span class="logo">NL<span>·</span>ArchViz</span>
+  <span>© <span id="year"></span> Назар Лакуста · 3D-візуалізація інтер'єрів</span>
+</footer>
+
+<!-- Lightbox -->
+<div class="lb" id="lb" aria-hidden="true">
+  <button class="lb__close" id="lbClose" aria-label="Закрити">×</button>
+  <button class="lb__nav lb__prev" id="lbPrev" aria-label="Попереднє">‹</button>
+  <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="lb__nav lb__next" id="lbNext" aria-label="Наступне">›</button>
+</div>
+
+<script src="js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
